@@ -64,7 +64,7 @@ public class MysqlSetup
 		return true;
 	}
 	
-	public boolean setupDatabase(String query) 
+	public static boolean setupDatabase(String query) 
 	{
 		if (conn != null) 
 		{
