@@ -1,0 +1,12 @@
+Language: 'English'
+Prefix: '&7[&dMySQLHook&7] &r'
+Mysql:
+  Status: false
+  Host: '127.0.0.1'
+  Port: 3306
+  DatabaseName: 'mydatabase'
+  SSLEnabled: false
+  AutoReconnect: true
+  VerifyServerCertificate: false
+  User: 'admin'
+  Password: 'not_0123456789'
