@@ -132,7 +132,7 @@ public class MysqlHandler
         return false;
 	}
 	
-	public static ResultSet getData(String query, String returnColumn, Object... whereObject)
+	public static ResultSet getData(String query, Object... whereObject)
 	{
 		PreparedStatement preparedStatement = null;
 		ResultSet result = null;
